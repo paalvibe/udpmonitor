@@ -1,0 +1,22 @@
+{
+  "name": "udpmonitor",
+  "version": "0.0.1",
+  "description": "Simple udp server for watching data dog udp events",
+  "main": "udpserver.js",
+  "scripts": {
+    "start": "node udpserver.js",
+    "client": "node udpclient.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/paalvibe/udpmonitor.git"
+  },
+  "dependencies": {
+    "dgram": "1.0.*"
+  },
+  "engines": {
+    "node": ">6.0.0"
+  },
+  "license": "MIT",
+  "private": false
+}
